@@ -7,4 +7,4 @@ Usage: dheeraj-purohit [options]
     -h, --help display help for command
 
     To print my resume on terminal:
-    npx dheeraj-purohit
+    npx dheeraj-purohit -r
