@@ -1,6 +1,6 @@
 {
 	"name": "dheeraj-purohit",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A cli portfolio of Dheeraj Purohit",
 	"main": "index.mjs",
 	"scripts": {
