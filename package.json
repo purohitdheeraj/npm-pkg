@@ -1,32 +1,37 @@
 {
-  "name": "dheerajpurohit",
-  "version": "1.0.1",
-  "description": "a cli pakage for priniting portfolio for dheeraj purohit",
-  "main": "index.js",
-  "bin": {
-    "dheerajpurohit": "index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/purohitdheeraj/npm-pkg.git"
-  },
-  "keywords": [
-    "Portfolio",
-    "npm",
-    "cli",
-    "resume",
-    "dheerajpurohit"
-  ],
-  "author": "Dheeraj Purohit",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/purohitdheeraj/npm-pkg/issues"
-  },
-  "homepage": "https://github.com/purohitdheeraj/npm-pkg#readme",
-  "dependencies": {
-    "dheerajpurohit": "^1.0.0"
-  }
+	"name": "dheeraj-purohit",
+	"version": "1.0.0",
+	"description": "A cli portfolio of Dheeraj Purohit",
+	"main": "index.mjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"dheeraj-purohit": "index.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/purohitdheeraj/npm-pkg.git"
+	},
+	"keywords": [
+		"cli",
+		"npm",
+		"portfolio",
+		"resume",
+		"dheeraj",
+		"purohit"
+	],
+	"author": "Dheeraj Purohit",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/purohitdheeraj/npm-pkg/issues"
+	},
+	"homepage": "https://github.com/purohitdheeraj/npm-pkg#readme",
+	"dependencies": {
+		"cli-markdown": "^3.0.5",
+		"commander": "^11.0.0"
+	},
+	"devDependencies": {
+		"dotenv": "^16.3.1"
+	}
 }
