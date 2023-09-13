@@ -1,6 +1,6 @@
 {
   "name": "dheerajpurohit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a cli pakage for priniting portfolio for dheeraj purohit",
   "main": "index.js",
   "bin": {
