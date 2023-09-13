@@ -40,5 +40,3 @@ if (resume) {
 			console.error(error);
 		});
 }
-
-export const sum = (a, b) => a + b;
